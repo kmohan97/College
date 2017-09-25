@@ -1,0 +1,221 @@
+<web-app>
+	<welcome-file-list>
+	<welcome-file>home.html</welcome-file>
+	</welcome-file-list>
+
+
+
+	<servlet>
+		<servlet-name>aa</servlet-name>
+		<servlet-class>Home</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>aa</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+	<servlet>
+		<servlet-name>a1</servlet-name>
+		<servlet-class>Admin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>a1</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+
+	
+
+
+	<servlet>
+		<servlet-name>a2</servlet-name>
+		<servlet-class>Clerk</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>a2</servlet-name>
+		<url-pattern>/clerk</url-pattern>
+	</servlet-mapping>
+	
+
+
+
+	<servlet>
+		<servlet-name>a3</servlet-name>
+		<servlet-class>Acc</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>a3</servlet-name>
+		<url-pattern>/acc</url-pattern>
+	</servlet-mapping>
+	
+
+
+	<servlet>
+		<servlet-name>a4</servlet-name>
+		<servlet-class>Library</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>a4</servlet-name>
+		<url-pattern>/library</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>a5</servlet-name>
+		<servlet-class>Admission_admin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>a5</servlet-name>
+		<url-pattern>/admission_admin</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>a6</servlet-name>
+		<servlet-class>Contact_admin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>a6</servlet-name>
+		<url-pattern>/contact_admin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>a7</servlet-name>
+		<servlet-class>Fee_admin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>a7</servlet-name>
+		<url-pattern>/fee_admin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>a8</servlet-name>
+		<servlet-class>Verify_admin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>a8</servlet-name>
+		<url-pattern>/verify_admin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>a9</servlet-name>
+		<servlet-class>Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>a9</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>b1</servlet-name>
+		<servlet-class>Contact_clerk</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>b1</servlet-name>
+		<url-pattern>/contact_clerk</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>b2</servlet-name>
+		<servlet-class>Showall_clerk</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>b2</servlet-name>
+		<url-pattern>/showall_clerk</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>b3</servlet-name>
+		<servlet-class>Update_clerk</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>b3</servlet-name>
+		<url-pattern>/update_clerk</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>b4</servlet-name>
+		<servlet-class>Delete_clerk</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>b4</servlet-name>
+		<url-pattern>/delete_clerk</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>b5</servlet-name>
+		<servlet-class>Update_clerk1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>b5</servlet-name>
+		<url-pattern>/update_clerk1</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>c2</servlet-name>
+		<servlet-class>Enterfee_acc</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>c2</servlet-name>
+		<url-pattern>/enterfee_acc</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>c1</servlet-name>
+		<servlet-class>Verify_acc</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>c1</servlet-name>
+		<url-pattern>/verify_acc</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>c3</servlet-name>
+		<servlet-class>Allfee_acc</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>c3</servlet-name>
+		<url-pattern>/allfee_acc</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>d1</servlet-name>
+		<servlet-class>Addbook</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>d1</servlet-name>
+		<url-pattern>/addbook</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>d2</servlet-name>
+		<servlet-class>Updatebook</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>d2</servlet-name>
+		<url-pattern>/updatebook</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>d3</servlet-name>
+		<servlet-class>Updatebook1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>d3</servlet-name>
+		<url-pattern>/updatebook1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>d4</servlet-name>
+		<servlet-class>Report</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>d4</servlet-name>
+		<url-pattern>/report</url-pattern>
+	</servlet-mapping>
+</web-app>
